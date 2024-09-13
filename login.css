@@ -8,7 +8,7 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(255, 222, 89);
-  height: 115vh;
+  height: 115%;
 }
 
 .container {
@@ -51,7 +51,7 @@ a {
   padding: auto;
 }
 
-#form > form > div{
+#form > form > div {
   width: 90%;
   margin: auto;
 }
@@ -81,15 +81,12 @@ span {
   width: 100%;
 }
 
-
-
-#cont-foot{
+#cont-foot {
   padding: 20px;
   text-align: center;
 }
 
-
-footer{
+footer {
   background-color: rgb(41, 33, 31);
   color: white;
   padding: 20px 0px;
