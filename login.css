@@ -1,18 +1,97 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(255, 222, 89);
+  height: 115vh;
 }
 
 .container {
   width: 30%;
   display: inline;
   background-color: white;
-  height: 500px;
-  border: 1px solid rgb(150, 150, 150);
+  height: 90%;
+  font-size: 13px;
 }
 
-.container > div {
-    width: 200px;
-    border: 1px solid rgb(150, 150, 150);
-  display: inline;
-  background-color: white;
+#header {
+  text-align: center;
+}
+#header > h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin: 30px 0px 15px 0px;
+}
+#header > p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+a {
+  text-decoration: none;
+  color: rgb(123, 139, 255);
+  font-weight: 500;
+}
+
+#form {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+#form > form {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: auto;
+}
+
+#form > form > div{
+  width: 90%;
+  margin: auto;
+}
+
+#form > form > div > input {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 10px;
+  width: 90%;
+}
+
+span {
+  color: orangered;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+#form > form > div > #submit-button {
+  background-color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+
+#cont-foot{
+  padding: 20px;
+  text-align: center;
+}
+
+
+footer{
+  background-color: rgb(41, 33, 31);
+  color: white;
+  padding: 20px 0px;
+  text-align: center;
 }
